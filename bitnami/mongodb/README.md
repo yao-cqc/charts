@@ -359,6 +359,8 @@ $ helm install my-release \
 
 The above command sets the MongoDB `root` account password to `secretpassword`. Additionally, it creates a standard database user named `my-user`, with the password `my-password`, who has access to a database named `my-database`.
 
+> NOTE: once installed, neither username nor password can be changed using Helm CLI. If given the capability, please use the in-app features to do so.
+
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```bash

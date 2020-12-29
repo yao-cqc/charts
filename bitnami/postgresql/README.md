@@ -287,6 +287,8 @@ $ helm install my-release \
 
 The above command sets the PostgreSQL `postgres` account password to `secretpassword`. Additionally it creates a database named `my-database`.
 
+> NOTE: once installed, neither username nor password can be changed using Helm CLI. If given the capability, please use the in-app features to do so.
+
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```console

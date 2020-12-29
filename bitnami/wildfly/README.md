@@ -172,6 +172,8 @@ $ helm install my-release \
 
 The above command sets the WildFly management username and password to `manager` and `password` respectively.
 
+> NOTE: once installed, neither username nor password can be changed using Helm CLI. If given the capability, please use the in-app features to do so.
+
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```console

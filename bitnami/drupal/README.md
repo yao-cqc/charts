@@ -233,6 +233,8 @@ $ helm install my-release \
 
 The above command sets the Drupal administrator account username and password to `admin` and `password` respectively. Additionally, it sets the MariaDB `root` user password to `secretpassword`.
 
+> NOTE: once installed, neither username nor password can be changed using Helm CLI. If given the capability, please use the in-app features to do so.
+
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
 
 ```console

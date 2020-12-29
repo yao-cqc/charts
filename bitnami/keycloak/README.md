@@ -230,6 +230,8 @@ helm install my-release --set auth.adminPassword=secretpassword bitnami/keycloak
 
 The above command sets the Keycloak administrator password to `secretpassword`.
 
+> NOTE: once installed, neither username nor password can be changed using Helm CLI. If given the capability, please use the in-app features to do so.
+
 Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
 
 ```bash
